@@ -1,4 +1,7 @@
 ```
+pwd
+# path/to/sample
+
 gcloud functions deploy FUNC_NAME \
 --project=YOUR_PROJECT_ID \
 --gen2 \
