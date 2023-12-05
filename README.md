@@ -1,8 +1,13 @@
 ```
-pwd
+$ pwd
 # path/to/sample
 
-gcloud functions deploy FUNC_NAME \
+$ go mod vendor
+
+$ ls | grep vendor
+# vendor
+
+$ gcloud functions deploy FUNC_NAME \
 --project=YOUR_PROJECT_ID \
 --gen2 \
 --source=. \
